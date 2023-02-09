@@ -1,0 +1,27 @@
+.portfolio{
+    background: #F6F6F6;
+    padding-top: 112px;
+    padding-bottom: 96px;
+}
+
+.portfolio__title{
+    @extend %section__title;
+    margin-bottom: 47px;
+}
+
+.portfolio__item{
+    margin-bottom: 99px;
+    text-align: center;
+}
+
+.portfolio__item:last-child{
+    margin-bottom:0;
+}
+
+.portfolio__link{
+    @extend %text-link;
+    text-decoration-line: underline;
+    color: #070707;
+    margin-top: 44px;
+    display: block;
+}

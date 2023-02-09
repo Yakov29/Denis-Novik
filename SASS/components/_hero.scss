@@ -1,0 +1,17 @@
+.hero{
+    padding-top: 39px;
+}
+
+.hero .container{
+    text-align: center;
+}
+
+h1{
+    @extend %big-title;
+}
+
+.hero__description{
+    @extend %description;
+    margin-bottom: 49px;
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+.about{
+    padding-top: 120px;
+    padding-bottom: 107px;
+    text-align: center;
+}
+
+.about__title{
+    @extend %section__title;
+}
+
+.about__description{
+    @extend %description;
+    margin-top: 17px;
+}
